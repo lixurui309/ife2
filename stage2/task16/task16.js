@@ -69,7 +69,7 @@ function delBtnHandle(target) {
 	var tr = target.parentElement.parentElement;
 	var oCity = tr.childNodes[0].innerHTML;
 	delete aqiData[oCity];
-  renderAqiList();
+    renderAqiList();
 }
 
 function init() {
