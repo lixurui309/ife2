@@ -36,7 +36,7 @@ function queIn(){
 		que.push(text[i]);
 		}
 	}
-	
+//查找标记	
 function queSelect(){
 	var j=0;
 	var selectText = document.getElementById("select").value.trim();
