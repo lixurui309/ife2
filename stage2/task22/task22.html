@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+
+<style>
+.root{	display:flex;
+		width:1000px;
+		height:500px;
+		justify-content: space-between;
+		padding:20px;
+		border:1px solid black;
+		}
+.child1{ display:flex;
+		 width:430px;
+		 height:400px;
+		 justify-content:space-between;
+		 padding:20px;
+		 border:1px solid green;
+		 margin:auto;}
+.child2{ display:flex;
+		 width:150px;
+		 height:230px;
+		 justify-content:space-between;
+		 padding:20px;
+		 border:1px solid red;
+		 margin:auto;}
+.child3{ display:flex;
+		 width:20px;
+		 height:100px;
+		 justify-content:space-between;
+		 padding:20px;
+		 flex-direction:column;
+		 border:1px solid #906;
+		 margin:auto;}
+.child4{ display:flex;
+		 width:18px;
+		 height:30px; 
+		 justify-content:space-between;
+		 padding:3px;
+		 border:1px solid #00C;
+		 margin:auto;}
+</style>
+</head>
+
+<body>
+<div class="root">
+	<div class="child1">
+    	<div class="child2">
+        	<div class="child3">
+            	<div class="child4"></div>
+                <div class="child4"></div>
+            </div>
+            <div class="child3">
+            	<div class="child4"></div>
+                <div class="child4"></div>
+            </div>
+        </div>
+        <div class="child2">
+        	<div class="child3">
+            	<div class="child4"></div>
+                <div class="child4"></div>
+            </div>
+            <div class="child3">
+            	<div class="child4"></div>
+                <div class="child4"></div>
+            </div>
+        </div>
+    </div>
+    <div class="child1">
+    	<div class="child2">
+        	<div class="child3">
+            	<div class="child4"></div>
+                <div class="child4"></div>
+            </div>
+            <div class="child3">
+            	<div class="child4"></div>
+                <div class="child4"></div>
+            </div>
+        </div>
+        <div class="child2">
+        	<div class="child3">
+            	<div class="child4"></div>
+                <div class="child4"></div>
+            </div>
+            <div class="child3">
+            	<div class="child4"></div>
+                <div class="child4"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="button" value="前序" id="btn1"/>
+<input type="button" value="中序" id="btn2"/>
+<input type="button" value="后序" id="btn3"/>
+</body>
+<script src="task22.js"></script>
+</html>
